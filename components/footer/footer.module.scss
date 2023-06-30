@@ -1,0 +1,23 @@
+.container {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy {
+  font-size: 14px;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialIcons img {
+  cursor: pointer;
+}
+
+.socialIcons img:hover {
+  opacity: 0.8;
+}
